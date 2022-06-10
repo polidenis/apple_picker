@@ -21,8 +21,8 @@ public:
 		std::cout << size;
 		if (size > 0)
 		{
-			ULogData* tmp = Cast<ULogData>(this->ListItems[0].Get());
-			std::cout << tmp;
+			// ULogData* tmp = Cast<ULogData>(this->ListItems[0].Get());
+			// std::cout << tmp;
 		}
 	}
 };
